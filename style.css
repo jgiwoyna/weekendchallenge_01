@@ -1,0 +1,27 @@
+h1 {
+  color: #000;
+}
+
+#monthlyexpenditures {
+  border: 2px solid blue;
+  padding: 10px;
+  margin: 30px;
+}
+
+#container {
+  border: 2px solid red;
+  padding: 10px;
+  margin: 30px;
+}
+
+#table {
+  text-align: left;
+}
+
+input, label {
+  display: table-row;
+}
+
+#button {
+  position: absolute;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Employee Forms</title>
+      <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+      <script type="text/javascript" src="app.js"></script>
+      <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1><i>Weekend Challenge Numero Uno</i></h1>
+    <div>
+      <form id="employeeinfo">
+        <label for="employeefirstname">Employee First Name</label>
+        <input type="text" id="employeefirstname" name="employeefirstname" required/>
+
+        <label for="employeelastname">Employee Last Name</label>
+        <input type="text" id="employeelastname" name="employeelastname" required/>
+
+        <label for="idnumber">ID Number</label>
+        <input type="text" id="idnumber" name="idnumber" required/>
+
+        <label for="jobtitle">Job Title</label>
+        <input type="text" id="jobtitle" name="jobtitle" required/>
+
+        <label for="annualsalary">Annual Salary</label>
+        <input type="text" id="annualsalary" name="annualsalary" required/>
+
+        <input type="submit" id="button" value="Submit Form" />
+      </form>
+    </div>
+    <div id="monthlyexpenditures">
+      <h3>Monthly Expenditures</h3><p id="totalSalary"><p>
+    </div>
+    <div id="container">
+      <h2>Employee List</h2>
+      <table id="table" style="width:100%">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>ID Number</th>
+          <th>Job Title</th>
+          <th>Annual Salary</th>
+        </tr>
+    </div>
+  </body>
+</html>
